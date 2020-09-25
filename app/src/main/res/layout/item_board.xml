@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="?attr/selectableItemBackground"
+    android:orientation="vertical"
+    android:layout_marginBottom="@dimen/itemBoard_content_marginBottom">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="@dimen/itemBoard_content_padding">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/civ_board_image"
+            android:layout_width="@dimen/itemBoard_image_size"
+            android:layout_height="@dimen/itemBoard_image_size"
+            android:contentDescription="@string/image_contentDescription"
+            android:src="@drawable/ic_board_placeholder"
+            app:civ_border_color="@color/primaryTextColor"
+            app:civ_border_width="@dimen/itemBoard_image_circularBorderWidth" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="@dimen/itemBoard_name_layoutMarginStart">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="@dimen/itemBoard_name_textSize"
+                tools:text="Board Name" />
+
+            <TextView
+                android:id="@+id/tv_created_by"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondaryTextColor"
+                android:textSize="@dimen/itemBoard_createdBy_textSize"
+                tools:text="Created By" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/itemBoard_divider_height"
+        android:layout_marginTop="@dimen/itemBoard_divider_marginTop"
+        android:background="@color/divider_color"/>
+
+</LinearLayout>

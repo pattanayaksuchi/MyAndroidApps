@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="splashScreenTitleTextSize">40sp</dimen>
+    <dimen name="introScreenTitleText_marginTop">40dp</dimen>
+    <dimen name="introScreenTitleText_size">40sp</dimen>
+    <dimen name="introScreenImage_marginTop">30dp</dimen>
+    <dimen name="letsGetStartedText_marginTop">25dp</dimen>
+    <dimen name="letsGetStartedText_size">25sp</dimen>
+    <dimen name="introText_marginStartEnd">20dp</dimen>
+    <dimen name="introText_marginTop">10dp</dimen>
+    <dimen name="introText_lineSpacingExtra">5dp</dimen>
+    <dimen name="introText_size">16sp</dimen>
+    <dimen name="btn_marginStartEnd">20dp</dimen>
+    <dimen name="btn_marginTop">8dp</dimen>
+    <dimen name="btn_paddingTop">8dp</dimen>
+    <dimen name="btn_paddingBottom">8dp</dimen>
+    <dimen name="introScreenSignUpBtn_marginTop">15dp</dimen>
+    <dimen name="introScreenSignInBtn_marginTop">50dp</dimen>
+    <dimen name="btn_textSize">18sp</dimen>
+
+    <!-- Sign Up Activity -->
+    <dimen name="signUpSceen_btn_marginTop">30dp</dimen>
+    <dimen name="signUpScreen_toolbar_textSize">18sp</dimen>
+    <dimen name="authenticationScreen_content_marginTop">40dp</dimen>
+    <dimen name="authenticationScreen_description_textSize">16sp</dimen>
+    <dimen name="authenticationScreen_marginStartEnd">25dp</dimen>
+    <dimen name="authenticationScreen_cardView_marginTop">120dp</dimen>
+    <dimen name="cardView_elevation">10dp</dimen>
+    <dimen name="cardView_cornerRadius">10dp</dimen>
+    <dimen name="cardViewlayout_contentPadding">16dp</dimen>
+    <dimen name="authenticationScreen_til_marginStartEnd">16dp</dimen>
+    <dimen name="et_textSize">16sp</dimen>
+    <dimen name="authenticationScreen_til_marginTop">20dp</dimen>
+
+    <dimen name="progress_dialog_content_padding">10dp</dimen>
+    <dimen name="progress_bar_size">50dp</dimen>
+    <dimen name="progress_bar_text_marginStartEnd">16dp</dimen>
+    <dimen name="progress_text_size">16sp</dimen>
+
+    <dimen name="height_of_nav_main">200dp</dimen>
+    <dimen name="nav_image_size">80dp</dimen>
+    <dimen name="nav_content_margin_StartEnd">16dp</dimen>
+    <dimen name="nav_content_margin_top">5dp</dimen>
+    <dimen name="nav_content_margin_bottom">10dp</dimen>
+    <dimen name="nav_user_name_text_size">18sp</dimen>
+    <dimen name="nav_image_circular_border_width">1dp</dimen>
+    <dimen name="nav_divider_height">0.5dp</dimen>
+
+    <dimen name="myProfileScreen_content_marginStartEnd">16dp</dimen>
+    <dimen name="myProfileScreen_content_marginTopBottom">10dp</dimen>
+    <dimen name="myProfileScreen_content_padding">16dp</dimen>
+    <dimen name="myProfileScreen_user_imageSize">100dp</dimen>
+    <dimen name="myProfileScreen_name_tilmarginTop">25dp</dimen>
+    <dimen name="myProfileScreen_email_etMarginTop">20dp</dimen>
+    <dimen name="myProfileScreen_mobile_etMarginTop">20dp</dimen>
+    <dimen name="myProfileScreen_update_buttonMarginTop">30dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="create_board_content_padding">16dp</dimen>
+    <dimen name="board_image_size">100dp</dimen>
+    <dimen name="create_board_til_marginTop">25dp</dimen>
+    <dimen name="create_board_btn_marginTop">30dp</dimen>
+
+    <dimen name="mainScreen_content_padding">16dp</dimen>
+    <dimen name="noBoardsAvailable_text_size">16sp</dimen>
+    <dimen name="itemBoard_content_marginBottom">10dp</dimen>
+    <dimen name="itemBoard_content_padding">10dp</dimen>
+    <dimen name="itemBoard_image_size">60dp</dimen>
+    <dimen name="itemBoard_image_circularBorderWidth">0.5dp</dimen>
+    <dimen name="itemBoard_name_layoutMarginStart">10dp</dimen>
+    <dimen name="itemBoard_name_textSize">18sp</dimen>
+    <dimen name="itemBoard_createdBy_textSize">14sp</dimen>
+    <dimen name="itemBoard_divider_marginTop">5dp</dimen>
+    <dimen name="itemBoard_divider_height">0.3dp</dimen>
+
+
+    <dimen name="taskList_content_padding">10dp</dimen>
+
+
+    <dimen name="task_item_cv_elevation">5dp</dimen>
+    <dimen name="task_item_add_item_text_padding">12dp</dimen>
+    <dimen name="task_item_add_item_text_size">18sp</dimen>
+    <dimen name="task_item_cv_margin">5dp</dimen>
+    <dimen name="task_item_cv_corner_radius">5dp</dimen>
+    <dimen name="task_item_image_buttons_padding">10dp</dimen>
+    <dimen name="task_item_title_view_elevation">10dp</dimen>
+    <dimen name="task_item_title_text_padding">10dp</dimen>
+    <dimen name="task_item_title_text_size">16sp</dimen>
+    <dimen name="task_item_divider_height">0.5dp</dimen>
+    <dimen name="task_item_rv_card_list_margin">5dp</dimen>
+    <dimen name="task_item_add_card_text_elevation">10dp</dimen>
+
+    <dimen name="item_card_content_margin">8dp</dimen>
+    <dimen name="item_card_cv_elevation">5dp</dimen>
+    <dimen name="item_card_label_height">15dp</dimen>
+    <dimen name="item_card_name_text_padding">10dp</dimen>
+    <dimen name="item_card_name_text_size">16sp</dimen>
+    <dimen name="item_card_members_text_padding">10dp</dimen>
+    <dimen name="item_card_members_text_size">14sp</dimen>
+
+    <dimen name="members_content_padding">16dp</dimen>
+    <dimen name="members_cv_marginTop">5dp</dimen>
+
+    <dimen name="item_member_marginBottom">10dp</dimen>
+    <dimen name="item_member_content_padding">10dp</dimen>
+    <dimen name="item_member_image_size">60dp</dimen>
+    <dimen name="item_member_image_circular_width_size">0.5dp</dimen>
+    <dimen name="item_member_detail_layout_marginStart">10dp</dimen>
+    <dimen name="item_member_name_text_size">18sp</dimen>
+    <dimen name="item_member_email_text_size">14sp</dimen>
+    <dimen name="item_member_divider_height">0.3dp</dimen>
+    <dimen name="item_member_divider_marginTop">5dp</dimen>
+
+    <dimen name="dialog_member_cv_elevation">3dp</dimen>
+    <dimen name="dialog_member_cv_cornerRadius">3dp</dimen>
+    <dimen name="dialog_member_content_padding">10dp</dimen>
+    <dimen name="dialog_member_title_padding">5dp</dimen>
+    <dimen name="dialog_member_title_text_size">18sp</dimen>
+    <dimen name="member_dialog_divider_height">1dp</dimen>
+    <dimen name="member_dialog_divider_marginTopBottom">3dp</dimen>
+    <dimen name="member_dialog_til_email_marginTop">10dp</dimen>
+    <dimen name="member_dialog_action_layout_height">40dp</dimen>
+    <dimen name="member_dialog_action_layout_marginTop">10dp</dimen>
+    <dimen name="member_dialog_action_button_padding">10dp</dimen>
+    <dimen name="member_dialog_action_button_text_size">16sp</dimen>
+
+    <dimen name="cardDetails_content_padding">16dp</dimen>
+    <dimen name="cardDetailsCVCard_name_marginBottom">10dp</dimen>
+    <dimen name="cardDetailsCV_content_padding">16dp</dimen>
+    <dimen name="cardDetails_label_textSize">14sp</dimen>
+    <dimen name="cardDetails_value_marginTop">5dp</dimen>
+    <dimen name="cardDetails_value_padding">10dp</dimen>
+    <dimen name="cardDetailsMembers_label_marginTop">15dp</dimen>
+    <dimen name="cardDetailsUpdate_btn_marginTop">30dp</dimen>
+
+    <dimen name="itemLabel_color_height">40dp</dimen>
+    <dimen name="itemLabel_color_margin">5dp</dimen>
+    <dimen name="itemLabel_color_selectedImageMarginEnd">10dp</dimen>
+    <dimen name="dialogListCV_elevationAndCornerRadius">3dp</dimen>
+    <dimen name="dialogList_content_padding">10dp</dimen>
+    <dimen name="dialogList_title_padding">5dp</dimen>
+    <dimen name="dialogList_title_textSize">18sp</dimen>
+    <dimen name="dialogList_divider_height">1dp</dimen>
+    <dimen name="dialogList_marginTopBottom">3dp</dimen>
+
+    <dimen name="item_selected_member_image_size">45dp</dimen>
+    <dimen name="item_selected_member_border_width">2dp</dimen>
+
+
+</resources>

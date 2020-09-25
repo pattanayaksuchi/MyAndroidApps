@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/intro_background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".activities.IntroActivity">
+
+    <TextView
+        android:id="@+id/tv_app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/introScreenTitleText_marginTop"
+        android:text="@string/app_name"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/introScreenTitleText_size"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/introScreenImage_marginTop"
+        android:contentDescription="@string/image_contentDescription"
+        android:src="@drawable/ic_task_image" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/letsGetStartedText_marginTop"
+        android:text="@string/letsGetStartedText"
+        android:textColor="@color/primaryTextColor"
+        android:textSize="@dimen/letsGetStartedText_size" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/introText_marginStartEnd"
+        android:layout_marginTop="@dimen/introText_marginTop"
+        android:layout_marginEnd="@dimen/introText_marginStartEnd"
+        android:gravity="center"
+        android:lineSpacingExtra="@dimen/introText_lineSpacingExtra"
+        android:text="@string/introTextDescription"
+        android:textColor="@color/secondaryTextColor"
+        android:textSize="@dimen/introText_size" />
+
+    <Button
+        android:id="@+id/btn_sign_in_intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/btn_marginStartEnd"
+        android:layout_marginTop="@dimen/introScreenSignInBtn_marginTop"
+        android:layout_marginEnd="@dimen/btn_marginStartEnd"
+        android:background="@drawable/shape_button_rounded"
+        android:foreground="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:paddingTop="@dimen/btn_paddingTop"
+        android:paddingBottom="@dimen/btn_paddingBottom"
+        android:text="@string/signIn"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/btn_textSize" />
+
+    <Button
+        android:id="@+id/btn_sign_up_intro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/btn_marginStartEnd"
+        android:layout_marginTop="@dimen/introScreenSignUpBtn_marginTop"
+        android:layout_marginEnd="@dimen/btn_marginStartEnd"
+        android:background="@drawable/white_border_shape_button_rounded"
+        android:foreground="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:paddingTop="@dimen/btn_paddingTop"
+        android:paddingBottom="@dimen/btn_paddingBottom"
+        android:text="@string/signUp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/btn_textSize" />
+
+</LinearLayout>
